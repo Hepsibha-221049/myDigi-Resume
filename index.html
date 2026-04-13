@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hepsiba Gandra | Professional Portfolio</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#main-nav">
+
+    <!-- Premium Navbar -->
+    <nav id="main-nav" class="navbar navbar-expand-lg fixed-top transition-all shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-black fs-4" href="#">HEPSIBA<span class="text-teal">.G</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center gap-lg-3">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link ms-lg-3 btn btn-teal text-white rounded-pill px-4" href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section min-vh-100 d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 order-2 order-lg-1 reveal-left">
+                    <div class="hero-content">
+                        <span class="badge rounded-pill bg-teal-soft text-teal mb-4 px-3 py-2">Aspiring AI Engineer</span>
+                        <h1 class="display-1 fw-black mb-4">Building <span class="gradient-text">Intelligent</span> Solutions</h1>
+                        <p class="lead mb-5 text-muted">A dedicated individual with a strong foundation in Python, Machine Learning, and NLP. I solve real-world problems through innovative technology.</p>
+                        <div class="d-flex gap-3">
+                            <a href="#projects" class="btn btn-teal btn-lg px-5 rounded-pill shadow-lg text-white">View Projects</a>
+                            <a href="https://github.com/hepsibha-gandra123" target="_blank" class="btn btn-outline-dark btn-lg px-5 rounded-pill">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 reveal-right">
+                    <div class="hero-img-wrapper position-relative">
+                        <div class="blob-bg"></div>
+                        <img src="images/hero-ai.png" alt="Hepsiba Gandra" class="img-fluid reveal-img shadow-xl rounded-4">
+                        <div class="floating-badge badge-1">
+                            <i class="bi bi-cpu text-white"></i>
+                            <span>AI & ML Focused</span>
+                        </div>
+                        <div class="floating-badge badge-2 top-0 start-0 m-4">
+                            <i class="bi bi-code-slash text-teal"></i>
+                            <span>Python Expert</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section-padding bg-light reveal">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5">
+                    <div class="about-img position-relative">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=600&auto=format&fit=crop" alt="Technology" class="img-fluid rounded-4 shadow">
+                        <div class="overlay-card p-4 bg-white shadow rounded-4 position-absolute bottom-0 start-0 m-4">
+                            <h3 class="fw-bold mb-1">100+ Problems</h3>
+                            <p class="small text-muted mb-0">Solved on LeetCode</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <h2 class="display-4 fw-bold mb-4">Driven by Innovation</h2>
+                    <p class="lead text-muted mb-4">I am passionate about solving real-world problems through technology and building innovative projects. I focus on creating value through data and machine learning.</p>
+                    <div class="row g-4 mb-5">
+                        <div class="col-md-6">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="icon-box bg-white shadow-sm rounded-3 p-2">
+                                    <i class="bi bi-lightning-charge fs-4 text-teal"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold">Fast Learner</h5>
+                                    <p class="small text-muted">Currently mastering Deep Learning and NLP.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="icon-box bg-white shadow-sm rounded-3 p-2">
+                                    <i class="bi bi-graph-up fs-4 text-teal"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold">Data Enthusiast</h5>
+                                    <p class="small text-muted">Transforming raw data into actionable insights.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accomplishments mt-4">
+                        <h5 class="fw-bold mb-3">Key Accomplishments</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-teal me-2"></i> Solved 100+ problems in LeetCode</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-teal me-2"></i> Worked on multiple ML and Web development projects</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-teal me-2"></i> Actively learning AI, NLP and Deep Learning concepts</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding reveal">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Technical Skills</h2>
+                <div class="divider mx-auto"></div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <h4 class="fw-bold mb-4">Proficiency</h4>
+                    <div class="skill-item mb-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="fw-semibold">Programming (Python, Java, C)</span>
+                            <span class="text-teal fw-bold">90%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar bg-teal" role="progressbar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="fw-semibold">Machine Learning (Pandas, Scikit-learn)</span>
+                            <span class="text-teal fw-bold">85%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar bg-teal" role="progressbar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="fw-semibold">Web Development (HTML, CSS, JS)</span>
+                            <span class="text-teal fw-bold">80%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar bg-teal" role="progressbar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="fw-bold mb-4">Technologies & Tools</h4>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge rounded-pill bg-slate-800 p-3 fs-6">Python</span>
+                        <span class="badge rounded-pill bg-slate-800 p-3 fs-6">Java</span>
+                        <span class="badge rounded-pill bg-slate-800 p-3 fs-6">C</span>
+                        <span class="badge rounded-pill bg-slate-800 p-3 fs-6">JavaScript</span>
+                        <span class="badge rounded-pill bg-teal p-3 fs-6">React</span>
+                        <span class="badge rounded-pill bg-teal p-3 fs-6">Firebase</span>
+                        <span class="badge rounded-pill bg-teal p-3 fs-6">Git/GitHub</span>
+                        <span class="badge rounded-pill bg-teal p-3 fs-6">Kaggle</span>
+                        <span class="badge rounded-pill bg-teal p-3 fs-6">Pandas</span>
+                        <span class="badge rounded-pill bg-teal p-3 fs-6">NumPy</span>
+                        <span class="badge rounded-pill bg-teal p-3 fs-6">Scikit-learn</span>
+                    </div>
+                    <div class="mt-5">
+                        <h5 class="fw-bold mb-3">Core Concepts</h5>
+                        <div class="p-3 bg-light rounded-4 border-start border- teal border-4">
+                            Data Structures and Algorithms (Java)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-dark text-white reveal">
+        <div class="container">
+            <h2 class="display-5 fw-bold mb-5">Projects</h2>
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card bg-slate-800 border-0 rounded-4 overflow-hidden h-100 project-card shadow">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=600&auto=format&fit=crop" class="card-img-top" alt="Expense Tracker">
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold">Expense Tracker</h5>
+                            <p class="card-text text-muted small">Web app with Firebase integration and real-time email notifications.</p>
+                            <button type="button" class="btn btn-teal text-white rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalProject1">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card bg-slate-800 border-0 rounded-4 overflow-hidden h-100 project-card shadow border-teal-thin">
+                        <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=600&auto=format&fit=crop" class="card-img-top" alt="AI Resume Tracker">
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold">AI Resume Tracker</h5>
+                            <p class="card-text text-muted small">Developing a responsive interface for job and resume tracking.</p>
+                            <span class="badge bg-warning text-dark mb-3">In Progress</span><br>
+                            <button type="button" class="btn btn-teal text-white rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalProject2">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card bg-slate-800 border-0 rounded-4 overflow-hidden h-100 project-card shadow">
+                        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=600&auto=format&fit=crop" class="card-img-top" alt="Movie Recommender">
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold">Movie Recommendation System</h5>
+                            <p class="card-text text-muted small">Python-based system using ML to recommend movies based on preferences.</p>
+                            <button type="button" class="btn btn-teal text-white rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalProject3">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals -->
+    <div class="modal fade" id="modalProject1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content rounded-5 border-0 shadow-lg">
+                <div class="modal-header border-0 p-4 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-5 pt-2">
+                    <h2 class="fw-black mb-3">Expense Tracker</h2>
+                    <p class="text-teal fw-bold mb-4">HTML, CSS, JavaScript, Firebase</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-dot text-teal fs-4"></i> Built a web application to track daily expenses and manage budgets.</li>
+                        <li class="mb-2"><i class="bi bi-dot text-teal fs-4"></i> Used Firebase Realtime Database to store and update expense data.</li>
+                        <li class="mb-2"><i class="bi bi-dot text-teal fs-4"></i> Added real-time email notifications to alert users about updates.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProject2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content rounded-5 border-0 shadow-lg">
+                <div class="modal-header border-0 p-4 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-5 pt-2">
+                    <h2 class="fw-black mb-3">AI Resume Tracker</h2>
+                    <p class="text-teal fw-bold mb-4">React, JavaScript, Firebase</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-dot text-teal fs-4"></i> Developing a web application to track job applications and resumes.</li>
+                        <li class="mb-2"><i class="bi bi-dot text-teal fs-4"></i> Allows users to organize resumes and monitor application status.</li>
+                        <li class="mb-2"><i class="bi bi-dot text-teal fs-4"></i> Building a responsive interface using React.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProject3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content rounded-5 border-0 shadow-lg">
+                <div class="modal-header border-0 p-4 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-5 pt-2">
+                    <h2 class="fw-black mb-3">Movie Recommendation System</h2>
+                    <p class="text-teal fw-bold mb-4">Python, Pandas, Scikit-learn</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-dot text-teal fs-4"></i> Built a system that recommends movies based on preferences.</li>
+                        <li class="mb-2"><i class="bi bi-dot text-teal fs-4"></i> Used machine learning techniques to find similar movies.</li>
+                        <li class="mb-2"><i class="bi bi-dot text-teal fs-4"></i> Focused on data analysis and algorithmic precision.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="education" class="section-padding bg-light">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <h2 class="display-5 fw-bold">Education Journey</h2>
+                <div class="divider mx-auto"></div>
+            </div>
+            
+            <div class="timeline">
+                <!-- Education Item 1 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="d-flex justify-content-between align-items-start mb-3 flex-wrap">
+                            <div>
+                                <h4 class="fw-bold mb-1">Rajiv Gandhi University of Knowledge Technologies</h4>
+                                <p class="text-teal fw-semibold mb-0">Bachelor of Technology (B.Tech)</p>
+                            </div>
+                            <span class="badge bg-teal-soft text-teal rounded-pill px-3 py-2 mt-2 mt-md-0">2024-Present</span>
+                        </div>
+                        <p class="text-muted"><i class="bi bi-geo-alt me-2"></i>IIIT Nuzvid, Andhra Pradesh</p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <div class="bg-light p-2 rounded-3 border">
+                                <span class="fw-bold text-dark">CGPA: 8.9/10</span>
+                            </div>
+                            <small class="text-muted">Ongoing specialization in AI & ML</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Item 2 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="d-flex justify-content-between align-items-start mb-3 flex-wrap">
+                            <div>
+                                <h4 class="fw-bold mb-1">Pre University Course (PUC)</h4>
+                                <p class="text-teal fw-semibold mb-0">MPC Specialization</p>
+                            </div>
+                            <span class="badge bg-teal-soft text-teal rounded-pill px-3 py-2 mt-2 mt-md-0">2022-2024</span>
+                        </div>
+                        <p class="text-muted"><i class="bi bi-geo-alt me-2"></i>IIIT Andhra Pradesh</p>
+                        <div class="bg-light p-2 rounded-3 border d-inline-block mt-2">
+                            <span class="fw-bold text-dark">CGPA: 9.7</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Item 3 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="d-flex justify-content-between align-items-start mb-3 flex-wrap">
+                            <div>
+                                <h4 class="fw-bold mb-1">SSC (10th Standard)</h4>
+                                <p class="text-teal fw-semibold mb-0">High School Education</p>
+                            </div>
+                            <span class="badge bg-teal-soft text-teal rounded-pill px-3 py-2 mt-2 mt-md-0">2021-2022</span>
+                        </div>
+                        <p class="text-muted"><i class="bi bi-geo-alt me-2"></i>ZP High School Veligandla, AP</p>
+                        <div class="bg-light p-2 rounded-3 border d-inline-block mt-2">
+                            <span class="fw-bold text-dark">CGPA: 9.8</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="footer-section section-padding bg-dark text-white overflow-hidden">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 reveal-left">
+                    <h2 class="display-3 fw-black mb-4">Let's <span class="gradient-text">Connect</span></h2>
+                    <p class="lead mb-5 text-muted">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                    <div class="d-flex flex-column gap-3 mb-5">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="bg-teal text-white rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <span>Andhra Pradesh, India</span>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="bg-teal text-white rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <a href="mailto:hepsiba.gandra@example.com" class="text-white text-decoration-none">hepsiba.gandra@example.com</a>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3 mt-4">
+                        <a href="https://github.com/hepsibha-gandra123" target="_blank" class="social-icon bg-slate-800 text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; transition: var(--transition-base);">
+                            <i class="bi bi-github fs-5"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/hepsiba-gandra-308b54312/" target="_blank" class="social-icon bg-slate-800 text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; transition: var(--transition-base);">
+                            <i class="bi bi-linkedin fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 reveal-right">
+                    <div class="p-5 bg-slate-800 rounded-5 shadow-lg border border-secondary border-opacity-25">
+                        <h4 class="fw-bold mb-4">Send a Message</h4>
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label class="small text-muted mb-2">Full Name</label>
+                                <input type="text" class="form-control bg-dark border-0 text-white p-3 rounded-3" placeholder="John Doe">
+                            </div>
+                            <div class="mb-3">
+                                <label class="small text-muted mb-2">Email Address</label>
+                                <input type="email" class="form-control bg-dark border-0 text-white p-3 rounded-3" placeholder="john@example.com">
+                            </div>
+                            <div class="mb-4">
+                                <label class="small text-muted mb-2">Message</label>
+                                <textarea class="form-control bg-dark border-0 text-white p-3 rounded-3" rows="4" placeholder="How can I help you?"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-teal text-white w-100 py-3 rounded-pill fw-bold hover-lift">Send Message <i class="bi bi-send ms-2"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top border-secondary border-opacity-25 mt-5 pt-5 d-flex flex-md-row flex-column justify-content-between align-items-center gap-3">
+                <p class="text-muted mb-0 small">&copy; 2026 Hepsiba Gandra. Crafted with <i class="bi bi-heart-fill text-danger mx-1"></i> and AI.</p>
+                <div class="d-flex gap-4 small">
+                    <a href="#" class="text-muted text-decoration-none">Privacy Policy</a>
+                    <a href="#" class="text-muted text-decoration-none">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
